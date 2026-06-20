@@ -204,7 +204,7 @@
     <div class="grid" id="gameGrid"></div>
 
     <div id="audio-assets" style="display:none;">
-        <audio id="soundClick" src="source/click.mp3"></audio>
+        <audio id="soundClick" src="https://github.com/tailetuan145-ui/luckynumber/raw/refs/heads/main/source/click.mp3"></audio>
         <audio id="soundLucky" src="source/lucky.mp3"></audio>
         <audio id="soundSad" src="source/sad.mp3"></audio>
         <audio id="soundCorrect" src="source/correct.mp3"></audio>
@@ -240,7 +240,7 @@
     </div>
 
     <script>
-        const specialBoxVideos = { lucky: "source/lucky.mp4", lose: "source/lose.mp4", bad: "https://github.com/tailetuan145-ui/luckynumber/raw/refs/heads/main/bad.mp4" };
+        const specialBoxVideos = { lucky: "https://github.com/tailetuan145-ui/luckynumber/raw/refs/heads/main/source/lucky.mp4", lose: "https://github.com/tailetuan145-ui/luckynumber/raw/refs/heads/main/source/lose.mp4", bad: "https://github.com/tailetuan145-ui/luckynumber/raw/refs/heads/main/bad.mp4" };
         const canvas = document.getElementById('fireworksCanvas');
         const ctx = canvas.getContext('2d');
         canvas.width = window.innerWidth;
@@ -287,12 +287,12 @@
         }
 
         const vehicles = [
-            { a: "Car",      qVideo: "source/car_q.mp4",     aVideo: "source/car_a.mp4" },
-            { a: "Bus",      qVideo: "source/bus_q.mp4",     aVideo: "source/bus_a.mp4" },
-            { a: "Ferry",    qVideo: "source/ferry_q.mp4",   aVideo: "source/ferry_a.mp4" },
-            { a: "Train",    qVideo: "source/train_q.mp4",   aVideo: "source/train_a.mp4" },
-            { a: "Bicycle",  qVideo: "source/bicycle_q.mp4", aVideo: "source/bicycle_a.mp4" },
-            { a: "Motorbike", qVideo: "source/moto_q.mp4",   aVideo: "source/moto_a.mp4" }
+            { a: "Car",      qVideo: "https://github.com/tailetuan145-ui/luckynumber/raw/refs/heads/main/source/car_q.mp4",     aVideo: "https://github.com/tailetuan145-ui/luckynumber/raw/refs/heads/main/source/car_a.mp4" },
+            { a: "Bus",      qVideo: "https://github.com/tailetuan145-ui/luckynumber/raw/refs/heads/main/source/bus_q.mp4",     aVideo: "https://github.com/tailetuan145-ui/luckynumber/raw/refs/heads/main/source/bus_a.mp4" },
+            { a: "Ferry",    qVideo: "https://github.com/tailetuan145-ui/luckynumber/raw/refs/heads/main/source/ferry_q.mp4",   aVideo: "https://github.com/tailetuan145-ui/luckynumber/raw/refs/heads/main/source/ferry_a.mp4" },
+            { a: "Train",    qVideo: "https://github.com/tailetuan145-ui/luckynumber/raw/refs/heads/main/source/train_q.mp4",   aVideo: "https://github.com/tailetuan145-ui/luckynumber/raw/refs/heads/main/source/train_a.mp4" },
+            { a: "Bicycle",  qVideo: "https://github.com/tailetuan145-ui/luckynumber/raw/refs/heads/main/source/bicycle_q.mp4", aVideo: "https://github.com/tailetuan145-ui/luckynumber/raw/refs/heads/main/source/bicycle_a.mp4" },
+            { a: "Motorbike", qVideo: "https://github.com/tailetuan145-ui/luckynumber/raw/refs/heads/main/source/moto_q.mp4",   aVideo: "https://github.com/tailetuan145-ui/luckynumber/raw/refs/heads/main/source/moto_a.mp4" }
         ];
         const boxMap = ['q', 'lucky', 'q', 'q', 'q', 'lose', 'q', 'q', 'bad'];
         let currentQData = null;
